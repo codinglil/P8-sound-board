@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(226, 199, 251);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: rebeccapurple;
+  border: 0;
+  color: white;
+  margin: 1rem;
+  padding: 1.2rem 2.2rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
